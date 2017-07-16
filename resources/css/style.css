@@ -39,8 +39,6 @@ nav li {
 }
 
 h1 {
-  background: white;
-  display: inline;
   padding: 1.5rem 5rem;
   font-weight: bold;
   font-size: 2rem;
@@ -48,8 +46,16 @@ h1 {
 }
 
 .headline {
-  position: relative;
-  top: 10rem;
+  background: white;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .background{
