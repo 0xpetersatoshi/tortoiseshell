@@ -67,7 +67,26 @@ h1 {
 .business-info {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin: 3rem;
+  height: 8rem;
+  width: 5rem;
+}
+
+.feature img {
+  margin-bottom: 1rem;
+  width: 5rem;
+}
+
+.feature img.paper {
+  width: 3.5rem;
+  margin: 0 auto;
 }
 
 .info {
