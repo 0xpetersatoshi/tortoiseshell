@@ -1,0 +1,39 @@
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.main-banner {
+  background: url("../images/glasses-bg.png");
+  background-size: cover;
+  height: 30rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+}
+
+
+.background{
+  background-color: cadetblue;
+}
+
+.features {
+  display: flex;
+}
